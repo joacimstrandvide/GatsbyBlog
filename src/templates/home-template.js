@@ -16,7 +16,6 @@ const HomeTemplate = contentfulPage => {
       {/* Rendera ut datan */}
       <h2>{contentfulPage.title}</h2><br />
       <p>{renderRichText(contentfulPage.content, richTextConfig)}</p>
-      <GatsbyImage alt="page image" image={contentfulPage.image.gatsbyImage} />
     </main>
   )
 }

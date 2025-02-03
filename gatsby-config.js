@@ -14,8 +14,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Joacim Headless CMS`,
-    description: `Mitt Headless CMS projekt`,
+    title: `Gatsby Blog`,
+    description: `A simple gatsby blog`,
     author: `Joacim Strandvide`
   },
   plugins: [

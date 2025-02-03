@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
             {navigation.map(({ node }) => (
               <li key={node.url}>
                 {/* Skriv ut titel och länk för de olika sidorna, samt ta bort 404 sidan från själva menyn */}
-                {node.url != "/404/" && <Link to={node.url}>{node.title}</Link>}
+                {node.url !== "/404/" && <Link to={node.url}>{node.title}</Link>}
               </li>
             ))}
           </ul>
